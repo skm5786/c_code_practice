@@ -4,7 +4,7 @@ int main()
 {
     int a, b, c, i, terms;
 
-    /* Input number from user */
+  
     printf("Enter number of terms: ");
     scanf("%d", &terms);
 
