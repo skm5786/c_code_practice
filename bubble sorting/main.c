@@ -6,6 +6,7 @@ int main()
     int a[6]={1,2,3,4,5,6},b[6]={11,34,56,12,566,87};
     
     bubblesort(a);
+    printf("\n");
     bubblesort(b);
     for (i=0; i<6; i++) {
         printf("%d,  ",a[i]);
@@ -32,7 +33,7 @@ void bubblesort(int a[]){
                 issort=0;
             }
         }
-            if (issort) {
+            if (issort==1) {
                 return ;
             }
         
