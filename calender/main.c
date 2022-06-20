@@ -22,7 +22,8 @@ int main()
     }
     for (i=1; i<=daysinmonth[month-1]; i++) {
         printf("%5d",i);
-        if (++weekday>6) {
+        weekday=weekday+1;
+        if (weekday>6) {
             printf("\n");
             weekday=0;
         }
@@ -40,4 +41,5 @@ int starting_day_of_month(int year ,int m){
     w=(3+ ((13*m-1)/5) +D+ ((int)D/4) +((int)C/4)-2*C)%7;
     return w;
 }
+
 
