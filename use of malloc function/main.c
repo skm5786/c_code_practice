@@ -19,7 +19,7 @@ int main()
         
     }
     for (i=0; i<6; i++) {
-        printf("%s, %u\n",names[i],names[i]);
+        printf("%s, %u,%u\n",names[i],names[i],names[i+1]);
     }
    
     

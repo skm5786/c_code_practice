@@ -38,7 +38,7 @@ int starting_day_of_month(int year ,int m){
     int w,C,D;
         C = year/100;
         D = year%100;
-    w=(3+ ((13*m-1)/5) +D+ ((int)D/4) +((int)C/4)-2*C)%7;
+    w=(2+ ((13*m-1)/5) +D+ ((int)D/4) +((int)C/4)-2*C)%7;
     return w;
 }
 

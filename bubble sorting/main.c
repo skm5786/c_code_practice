@@ -22,10 +22,10 @@ int main()
 void bubblesort(int a[]){
     int i,j,n=6,temp;
     int issort=0;
-    for (i=0; i<n-1; i++) {
+    for (i=0; i<n-1; i++) {//operation number for loop
         printf("operation number=%d\n",i+1);
          issort=1;
-        for (j=0; j<n-1-i; j++) {
+        for (j=0; j<n-1-i; j++) {//element checking and swapping for loop
             if (a[j]>a[j+1]) {
                 temp=a[j];
                 a[j]=a[j+1];
